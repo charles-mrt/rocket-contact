@@ -22,12 +22,12 @@
     font-size: 1.6rem;
     border-radius: .8rem;
 }
-.wrapper:has(.group:hover) .group:not(:hover) {
+/* .wrapper:has(.group:hover) .group:not(:hover) {
     opacity: .6;
     scale:.90;
     transition: .4s;
     background: rgba(40, 40, 67, 0.39);
-}
+} */
 
 .group .contactGroup .contactInfo {
     display: flex;
