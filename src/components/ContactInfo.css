@@ -1,0 +1,117 @@
+
+.contacts .wrapper .group {
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+    /* margin-bottom: 5rem; */ 
+}
+
+.wrapper .group .letter {
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    color: var(--blue-gray-100);
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+}
+.wrapper:has(.group:hover) .group:not(:hover) {
+    opacity: .6;
+    scale:.90;
+    transition: .4s;
+    background: rgba(40, 40, 67, 0.39);
+}
+
+.group .contactGroup .contactInfo {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.contactGroup .contactInfo img {
+    border-radius: 999px;
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+.contactGroup .contactInfo .contact {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.contactInfo .contact .name {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: capitalize;
+    color: var(--blue-gray-100);
+}
+
+.contactInfo .contact .phoneNumber {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: var(--deep-purple-200);
+}
+
+/* Grupo of alfabeth */
+[data-letter="group-a"],
+[data-letter="group-l"],
+[data-letter="group-q"],
+[data-letter="group-v"] {
+    background: var(--deep-purple-800);
+}
+
+[data-letter="group-b"],
+[data-letter="group-g"],
+[data-letter="group-r"],
+[data-letter="group-w"] {
+    background: var(--cyan-600);
+}
+
+[data-letter="group-c"],
+[data-letter="group-h"],
+[data-letter="group-m"],
+[data-letter="group-x"] {
+    background: var(--teal-400);
+}
+
+[data-letter="group-d"],
+[data-letter="group-i"],
+[data-letter="group-n"],
+[data-letter="group-s"] {
+    background: var(--purple-500);
+}
+
+[data-letter="group-e"],
+[data-letter="group-j"],
+[data-letter="group-o"],
+[data-letter="group-t"],
+[data-letter="group-y"] {
+    background: var(--orange-600);
+}
+
+[data-letter="group-f"],
+[data-letter="group-k"],
+[data-letter="group-p"],
+[data-letter="group-u"],
+[data-letter="group-z"] {
+    background: var(--yellow-500);
+}
+
+  
+  
+  
+  
+  
+  
+  
