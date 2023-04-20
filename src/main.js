@@ -29,7 +29,7 @@ function filterContacts() {
 
         groups.forEach(group => {
 
-            if (group.getAttribute("data-letter") !== inputSearch.value.charAt(0)) {
+            if (group.getAttribute("data-letter").toLowerCase() !== inputSearch.value.charAt(0).toLowerCase()) {
                 group.style.display = "none";
             } else {
                 group.style.display = "flex";
