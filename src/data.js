@@ -43,8 +43,8 @@ export const contactData = {
         "m": [
             {
                 "id": 1,
-                "image-url": "mike-brito",
-                "name": "Mike Brito",
+                "image-url": "mayk-brito",
+                "name": "Mayk Brito",
                 "phone-number": "(44) 90212-2122",
             },
         ],
