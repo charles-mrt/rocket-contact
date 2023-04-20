@@ -19,7 +19,7 @@
 </p>
 <br>
 <p align="center">
-  <img alt="rocket-contact" src=".github/preview.gif" width="30%">
+  <img alt="rocket-contact" src=".github/preview.gif" width="70%">
 </p>
 
 ## 🚀 Technologies
