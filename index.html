@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./public/rocket-icon.jpg">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/components/ContactInfo.css">
+    
+    <title>rocket contact</title>
+</head>
+
+<body>
+
+    <div id="content">
+        <header>
+            <div class="menu">
+
+                <div class="title"><strong>Meus contatos</strong></div>
+
+                <div class="config">
+                    <button><i class="ph ph-plus"></i></button>
+                    <button><i class="ph-fill ph-pen"></i></button>
+                    <button><i class="ph-fill ph-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="inputSearch">
+                <i class="ph-bold ph-magnifying-glass"></i>
+                <label for="search" class="srOnly">Busque por nome ou por dados de contato...</label>
+                <input id="search" type="search" placeholder="Busque por nome ou por dados de contato..." />
+            </div>
+        </header>
+
+        <main>
+
+            <div class="contacts">
+                <div class="wrapper"></div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+    <script type="module" src="./src/main.js" defer></script>
+</html>
